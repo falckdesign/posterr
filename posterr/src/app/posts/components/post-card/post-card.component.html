@@ -1,0 +1,25 @@
+<div class="post-card">
+	<div class="user-avatar">
+		<span class="avatar"></span>
+	</div>
+	<div class="post-content">
+		<div class="post-header">
+			<span class="user-name">{{post.USER_NAME}}</span>
+			<span class="user-id">@{{post.USER_UNIQUE_NAME}}</span>
+			<span class="post-time">3h</span>
+		</div>
+		<div class="post-body">
+			<div [innerHTML]="post.USER_TEXT"></div>
+		</div>
+		<div class="post-footer">
+			<div class="controls">
+				<span class="control control-repost" (click)="OnCLickRepost()" title="Repost">
+					<i class="ico ico-repost"></i>
+				</span>
+				<span class="control control-quote-repost" (click)="OnClickQuoteRepost()" title="Repost with comment">
+					<i class="ico ico-quote-repost"></i>
+				</span>
+			</div>
+		</div>
+	</div>
+</div>

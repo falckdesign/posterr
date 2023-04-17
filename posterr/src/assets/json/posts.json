@@ -1,0 +1,45 @@
+[
+		{
+			"POST_ID" : 1,
+			"USER_NAME" : "Elon Musk",
+			"USER_UNIQUE_NAME" : "elonmusk",
+			"TIME_POSTED":"",
+			"USER_TEXT":"I will do a Starship Spaces at 6pm CT tomorrow for subscribers only"
+		},
+		{
+			"POST_ID" : 2,
+			"USER_NAME" : "The Economist",
+			"USER_UNIQUE_NAME" : "TheEconomist",
+			"TIME_POSTED":"",
+			"USER_TEXT":"If China invaded Taiwan it would probably involve an amphibious assault, one of the most difficult forms of warfare. Taiwan’s beaches are heavily fortified"
+		},
+		{
+			"POST_ID" : 3,
+			"USER_NAME" : "SpaceX",
+			"USER_UNIQUE_NAME" : "SpaceX",
+			"TIME_POSTED":"",
+			"USER_TEXT":"Starship's flight test window opens at 7:00 a.m. CT tomorrow; a live webcast will begin ~45 minutes before liftoff → <a href=\"https://spacex.com/launches/missi\">spacex.com/launches/missi</a>"
+		},
+		{
+			"POST_ID" : 4,
+			"USER_NAME" : "The Economist",
+			"USER_UNIQUE_NAME" : "TheEconomist",
+			"TIME_POSTED":"",
+			"USER_TEXT":"Be wary of a superpower that seeks influence without winning affection, power without trust and a global vision without universal human rights"
+		},
+		{
+			"POST_ID" : 5,
+			"USER_NAME" : "Elon Musk",
+			"USER_UNIQUE_NAME" : "elonmusk",
+			"TIME_POSTED":"",
+			"USER_TEXT":"I saw it happening from well before GPT-1, which is why I tried to warn the public for years.\n\nThe only one on one meeting I ever had with Obama as President I used not to promote Tesla or SpaceX, but to encourage  AI regulation."
+		},
+		{
+			"POST_ID" : 6,
+			"USER_NAME" : "Guardsquare",
+			"USER_UNIQUE_NAME" : "Guardsquare",
+			"TIME_POSTED":"",
+			"USER_TEXT":"Research shows the majority of #Android & #iOS mobile apps have major security issues, which raise greater #cybersecurity concerns. Read on for ways to mitigate both.\n\n<a href=\"https://guardsquare.com\">guardsquare.com</a>"
+		}
+	
+	]

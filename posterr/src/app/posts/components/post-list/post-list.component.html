@@ -1,0 +1,15 @@
+<section>
+	<div class="post-filter">
+		<div class="tabs">
+			<div class="tab" [ngClass]="{'active' : postsFilter == ''}" (click)="OnClickFilter('')">
+				<div class="tab-title">All posts</div>
+			</div>
+			<div class="tab" [ngClass]="{'active' : postsFilter == 'following'}" (click)="OnClickFilter('following')">
+				<div class="tab-title">Following</div>
+			</div>
+		</div>
+	</div>
+	<div class="post-list">
+		<app-post-card *ngFor="let post of postsList" [post]="post"></app-post-card>
+	</div>
+</section>

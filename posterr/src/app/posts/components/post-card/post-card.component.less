@@ -1,0 +1,45 @@
+@import url("../../../../assets/css/colors");
+@import url("../../../../assets/css/icons");
+
+.post-card {
+	display: flex; gap: 0 15px;
+	padding: 30px 20px;
+	border-bottom: solid 1px rgb(240,240,240);
+}
+
+.user-avatar {
+	width: 40px;
+
+	.avatar {
+		display: block; width: 40px; height: 40px;
+		border-radius: 10px;
+		background-color: @LightTurquoise;
+	}
+}
+
+.post-content {
+	flex: 1;
+	.post-header { display: flex; flex-wrap: wrap; gap:0 10px; padding-bottom: 10px;}
+	.post-body {
+		margin-bottom: 20px;
+		white-space: pre-wrap; word-wrap: break-word;
+		font-size: 1rem; line-height: 20px;
+	}
+	.post-footer { padding-top: 5px; }
+}
+
+.user-name {}
+.user-id { color: #999;}
+.post-time { color: #999; }
+
+
+.controls {
+	display: flex; gap: 15px;
+	.control {
+		display: flex; justify-content: center; align-items: center;
+		width: 2em; height: 2em;
+		border-radius: 5px; border:solid 1px hsl(200,.6,.85);
+		cursor: pointer;
+
+	}
+}

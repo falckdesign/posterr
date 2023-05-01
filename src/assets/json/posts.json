@@ -3,43 +3,127 @@
 			"POST_ID" : 1,
 			"USER_NAME" : "Elon Musk",
 			"USER_UNIQUE_NAME" : "elonmusk",
-			"TIME_POSTED":"",
+			"AVATAR_FILENAME":"elonmusk.jpg",
+			"TIME_POSTED":"2023-04-24T21:52:22.963Z",
 			"USER_TEXT":"I will do a Starship Spaces at 6pm CT tomorrow for subscribers only"
 		},
 		{
 			"POST_ID" : 2,
 			"USER_NAME" : "The Economist",
 			"USER_UNIQUE_NAME" : "TheEconomist",
-			"TIME_POSTED":"",
+			"AVATAR_FILENAME":"TheEconomist.jpg",
+			"TIME_POSTED":"2023-04-24T21:52:22.963Z",
 			"USER_TEXT":"If China invaded Taiwan it would probably involve an amphibious assault, one of the most difficult forms of warfare. Taiwan’s beaches are heavily fortified"
 		},
 		{
 			"POST_ID" : 3,
 			"USER_NAME" : "SpaceX",
 			"USER_UNIQUE_NAME" : "SpaceX",
-			"TIME_POSTED":"",
+			"AVATAR_FILENAME":"SpaceX.jpg",
+			"TIME_POSTED":"2023-04-24T21:52:22.963Z",
 			"USER_TEXT":"Starship's flight test window opens at 7:00 a.m. CT tomorrow; a live webcast will begin ~45 minutes before liftoff → <a href=\"https://spacex.com/launches/missi\">spacex.com/launches/missi</a>"
 		},
 		{
 			"POST_ID" : 4,
 			"USER_NAME" : "The Economist",
 			"USER_UNIQUE_NAME" : "TheEconomist",
-			"TIME_POSTED":"",
+			"AVATAR_FILENAME":"TheEconomist.jpg",
+			"TIME_POSTED":"2023-04-24T21:52:22.963Z",
 			"USER_TEXT":"Be wary of a superpower that seeks influence without winning affection, power without trust and a global vision without universal human rights"
 		},
 		{
 			"POST_ID" : 5,
 			"USER_NAME" : "Elon Musk",
 			"USER_UNIQUE_NAME" : "elonmusk",
-			"TIME_POSTED":"",
+			"AVATAR_FILENAME":"elonmusk.jpg",
+			"TIME_POSTED":"2023-04-24T21:52:22.963Z",
 			"USER_TEXT":"I saw it happening from well before GPT-1, which is why I tried to warn the public for years.\n\nThe only one on one meeting I ever had with Obama as President I used not to promote Tesla or SpaceX, but to encourage  AI regulation."
 		},
 		{
 			"POST_ID" : 6,
-			"USER_NAME" : "Guardsquare",
-			"USER_UNIQUE_NAME" : "Guardsquare",
-			"TIME_POSTED":"",
-			"USER_TEXT":"Research shows the majority of #Android & #iOS mobile apps have major security issues, which raise greater #cybersecurity concerns. Read on for ways to mitigate both.\n\n<a href=\"https://guardsquare.com\">guardsquare.com</a>"
+			"USER_NAME" : "SpaceX",
+			"USER_UNIQUE_NAME" : "SpaceX",
+			"AVATAR_FILENAME":"SpaceX.jpg",
+			"TIME_POSTED":"2023-04-24T21:52:22.963Z",
+			"USER_TEXT":"Standing down from tonight's Falcon Heavy launch of @ViasatInc's ViaSat-3 Americas mission; vehicle and payload remain healthy"
+		},
+		{
+			"POST_ID" : 7,
+			"USER_NAME" : "Jeff Bezos",
+			"USER_UNIQUE_NAME" : "JeffBezos",
+			"AVATAR_FILENAME":"jeffbezos.jpg",
+			"TIME_POSTED":"2023-04-24T21:52:22.963Z",
+			"USER_TEXT":"My friend and a friend to many, Tom Alberg, has passed away. He was an early investor in Amazon and served on our board for 23 years. Tom was a visionary and also just a wonderful, good man. I was so lucky to have you in my life, Tom. We will all miss you dearly."
+		},
+		{
+			"POST_ID" : 8,
+			"USER_NAME" : "Codie Sanchez",
+			"USER_UNIQUE_NAME" : "Codie_Sanchez",
+			"AVATAR_FILENAME":"codiesanchez.jpg",
+			"TIME_POSTED":"2023-04-24T21:52:22.963Z",
+			"USER_TEXT":"The 1 in 60 rule:\nWhen a plane veers off by 1 degree, it misses its target by 1 mile for every 60 miles flown.\nLesson: Constantly adjust your course."
+		},
+		{
+			"POST_ID" : 9,
+			"USER_NAME" : "Jaspreet Singh",
+			"USER_UNIQUE_NAME" : "MinorityM1ndset",
+			"AVATAR_FILENAME":"JaspreetSingh.jpg",
+			"TIME_POSTED":"2023-04-24T21:52:22.963Z",
+			"USER_TEXT":"Put a price on your time.\nIf you make $20/hour, a $3,000 handbag isn't just $3,000, it's also 150 hours of your life.\nValue your time."
+		},
+		{
+			"POST_ID" : 10,
+			"USER_NAME" : "Codie Sanchez",
+			"USER_UNIQUE_NAME" : "Codie_Sanchez",
+			"AVATAR_FILENAME":"codiesanchez.jpg",
+			"TIME_POSTED":"2023-04-24T21:52:22.963Z",
+			"USER_TEXT":"Stop trying to be normal.\nThe world isn't changed by the normal.\nIt's beaten into submission by the subversives crazy enough to try."
+		},
+		{
+			"POST_ID" : 11,
+			"USER_NAME" : "NASAWebb",
+			"USER_UNIQUE_NAME" : "NASA Webb Telescope",
+			"AVATAR_FILENAME":"NASAWebb.jpg",
+			"TIME_POSTED":"2023-04-24T21:52:22.963Z",
+			"USER_TEXT":"You did it, folks. Thanks to you, we put the Webb in #Webbys!\nOur #UnfoldTheUniverse campaign and livestream series have netted us 2 People’s Voice awards. Congrats to all of @NASA’s Webby winners: <a href=\"https://go.nasa.gov/40Gxyph\">go.nasa.gov/40Gxyph.</a>",
+			"IMAGES":[
+				{
+					"FILENAME_FULL_SIZE":"FuqdgjoWACg93D7.jpg",
+					"FILENAME_THUMBNAIL":"FuqdgjoWACg93D7_small.jpg",
+					"DESCRIPTION":"An hourglass-shaped, multi-color cloud set against the black, starry background of space. This cloud of dust and gas is illuminated by light from a protostar, a star in the earliest stages of formation. The upper “bulb” of the hourglass is orange, while the lower “bulb” transitions from white to dark blue. Together, the two bulbs stretch out like butterfly wings turned 90 degrees to the side. Extending from the upper and lower bulbs are long, wispy filaments of color, looking almost like burning fire. In the center of the hourglass shape is a small, dark demarcation line. This line is an edge-on view of a protoplanetary disk, a disk of material being pulled into a star as it forms."
+				}
+			]
+		},
+		{
+			"POST_ID" : 12,
+			"USER_NAME" : "TED_ED",
+			"USER_UNIQUE_NAME" : "TED-ED",
+			"AVATAR_FILENAME":"teded.jpg",
+			"TIME_POSTED":"2023-04-24T21:52:22.963Z",
+			"USER_TEXT":"“The same algorithms set loose upon us to make us more pliable for ads are also organizing our political, personal and social information flows, and that's what's got to change.”",
+			"LINK_PREVIEW":
+				{
+					"THUMBNAIL_URL":"PRGNCV4A.jpg",
+					"DOMAIN":"ed.ted.com",
+					"LINK":"https://ed.ted.com/lessons/we-re-building-a-dystopia-just-to-make-people-click-on-ads-zeynep-tufekci",
+					"TITLE":"We're building a dystopia just to make people click on ads - Zeynep Tufekci.",
+					"SUBTITLE":"We're building an artificial intelligence-powered dystopia, one click at a time, says techno-sociologist Zeynep Tufekci. In an eye-opening talk, she details how the same algorithms companies use to get you to click on ads are also used to organize your access to political and social information."
+				}
+
+		},
+		{
+			"POST_ID" : 13,
+			"USER_NAME" : "TheEconomist",
+			"USER_UNIQUE_NAME" : "The Economist",
+			"AVATAR_FILENAME":"TheEconomist.jpg",
+			"TIME_POSTED":"2023-04-24T21:52:22.963Z",
+			"USER_TEXT":"At 75, Israel is a hub of innovation and a winner from globalisation. Three new trends will test its ingenuity and resilience <a href=\"https://econ.st/3HgFGWs\">econ.st/3HgFGWs<a>",
+			"IMAGES":[
+				{
+					"FILENAME_FULL_SIZE":"FutuEliX0AIvSn8.jpg",
+					"FILENAME_THUMBNAIL":"FutuEliX0AIvSn8_small.jpg"
+				}
+			]
 		}
-	
+
 	]

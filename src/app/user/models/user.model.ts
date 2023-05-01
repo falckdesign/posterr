@@ -1,8 +1,9 @@
 export interface User {
-	USER_ID:UserId;
-}
-
-export interface UserId {
-	USER_NAME:string;
 	USER_UNIQUE_NAME:string;
+	USER_NAME:string;
+	AVATAR_FILENAME:string;
+	SHORT_BIO:string,
+	MEMBER_SINCE:Date;
+	NUM_FOLLOWERS:number;
+	NUM_FOLLOWING:number;
 }

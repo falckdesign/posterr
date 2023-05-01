@@ -1,0 +1,74 @@
+[
+	{
+		"USER_UNIQUE_NAME" : "elonmusk",
+		"USER_NAME" : "Elon Musk",
+		"AVATAR_FILENAME":"elonmusk.jpg",
+		"SHORT_BIO":"nothing",
+		"MEMBER_SINCE":"2009-06-10T10:00:00.963Z",
+		"NUM_FOLLOWERS":137300000,
+		"NUM_FOLLOWING":251
+	},
+	{
+		"USER_UNIQUE_NAME" : "SpaceX",
+		"USER_NAME" : "SpaceX",
+		"AVATAR_FILENAME":"SpaceX.jpg",
+		"SHORT_BIO":"SpaceX designs, manufactures and launches the world’s most advanced rockets and spacecraft.",
+		"MEMBER_SINCE":"2009-04-10T10:00:00.963Z",
+		"NUM_FOLLOWERS":29312000,
+		"NUM_FOLLOWING":100
+	},
+	{
+		"USER_UNIQUE_NAME" : "JeffBezos",
+		"USER_NAME" : "Jeff Bezos",
+		"AVATAR_FILENAME":"jeffbezos.jpg",
+		"SHORT_BIO":"Amazon. Blue Origin. Washington Post. Bezos Earth Fund. Bezos Academy.",
+		"MEMBER_SINCE":"2008-06-10T10:00:00.963Z",
+		"NUM_FOLLOWERS":6183000,
+		"NUM_FOLLOWING":218
+	},
+	{
+		"USER_UNIQUE_NAME" : "Codie_Sanchez",
+		"USER_NAME" : "Codie Sanchez",
+		"AVATAR_FILENAME":"codiesanchez.jpg",
+		"SHORT_BIO":"Investing millions in boring businesses & sharing what I learn. On a mission to create 1M financially free humans | My bio, not my tombstone, I hope it changes.",
+		"MEMBER_SINCE":"2011-02-10T10:00:00.963Z",
+		"NUM_FOLLOWERS":340600,
+		"NUM_FOLLOWING":922
+	},
+	{
+		"USER_UNIQUE_NAME" : "MinorityM1ndset",
+		"USER_NAME" : "Jaspreet Singh",
+		"AVATAR_FILENAME":"JaspreetSingh.jpg",
+		"SHORT_BIO":"𝙏𝙝𝙚 𝙈𝙞𝙣𝙤𝙧𝙞𝙩𝙮 𝙈𝙞𝙣𝙙𝙨𝙚𝙩 | CEO of @marketbriefs_ 🗞 Watch me on YouTube 👇",
+		"MEMBER_SINCE":"2015-07-10T10:00:00.963Z",
+		"NUM_FOLLOWERS":17100,
+		"NUM_FOLLOWING":770
+	},
+	{
+		"USER_UNIQUE_NAME" : "NASAWebb",
+		"USER_NAME" : "NASA Webb Telescope",
+		"AVATAR_FILENAME":"NASAWebb.jpg",
+		"SHORT_BIO":"The world's most powerful space telescope. Launched: Dec. 25, 2021. First images revealed: July 12, 2022.",
+		"MEMBER_SINCE":"2009-07-10T10:00:00.963Z",
+		"NUM_FOLLOWERS":2913000,
+		"NUM_FOLLOWING":78
+	},
+	{
+		"USER_UNIQUE_NAME" : "TED_ED",
+		"USER_NAME" : "TED-ED",
+		"AVATAR_FILENAME":"teded.jpg",
+		"SHORT_BIO":"Our mission is to spark and celebrate the ideas of students and teachers throughout the world. Follow for program updates + new animated videos every week!",
+		"MEMBER_SINCE":"2011-03-10T10:00:00.963Z",
+		"NUM_FOLLOWERS":558600,
+		"NUM_FOLLOWING":238
+	},
+	{
+		"USER_UNIQUE_NAME" : "TheEconomist",
+		"USER_NAME" : "The Economist",
+		"AVATAR_FILENAME":"TheEconomist.jpg",
+		"SHORT_BIO":"News and analysis with a global perspective. We’re here to help you understand the world around you. Subscribe here: http://bit.ly/3JHiD9F",
+		"MEMBER_SINCE":"2007-05-10T10:00:00.963Z",
+		"NUM_FOLLOWERS":27201000,
+		"NUM_FOLLOWING":150
+	}
+]

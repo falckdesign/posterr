@@ -1,6 +1,8 @@
 <div class="post-card">
 	<div class="user-avatar">
-		<span class="avatar"></span>
+		<span class="avatar">
+			<img [src]="avatarFolder+post.AVATAR_FILENAME"/>
+		</span>
 	</div>
 	<div class="post-content">
 		<div class="post-header">
@@ -10,6 +12,22 @@
 		</div>
 		<div class="post-body">
 			<div [innerHTML]="post.USER_TEXT"></div>
+			<div class="post-gallery" *ngIf="post.IMAGES">
+				<div class="post-photo-frame" *ngFor="let photo of post.IMAGES">
+					<img class="post-photo" [src]="photosFolder + photo.FILENAME_THUMBNAIL" [attr.alt]="photo.DESCRIPTION"/>
+				</div>
+			</div>
+			<div class="link-preview" *ngIf="post.LINK_PREVIEW">
+				<a class="link" [href]="post.LINK_PREVIEW.LINK" [attr.title]="post.LINK_PREVIEW.TITLE">
+					<span class="link-photo-frame">
+						<img class="link-photo" [src]="previewsFolder + post.LINK_PREVIEW.THUMBNAIL_URL">
+					</span>
+					<span class="link-text">
+						<div class="link-title">{{post.LINK_PREVIEW.TITLE}}</div>
+						<div class="link-subtitle">{{post.LINK_PREVIEW.SUBTITLE}}</div>
+					</span>
+				</a>
+			</div>
 		</div>
 		<div class="post-footer">
 			<div class="controls">

@@ -1,7 +1,6 @@
 import { Injectable } from '@angular/core';
-import { Post } from '../models/post.model';
 import { ApiService } from 'src/app/shared/services/api.service';
-import { Observable, map } from 'rxjs';
+import { Observable } from 'rxjs';
 
 
 @Injectable({
@@ -9,12 +8,18 @@ import { Observable, map } from 'rxjs';
 })
 export class PostsService {
 
+
+
 	constructor(
 		private api: ApiService
 	) { }
 
-	getPosts(): Observable<any> {
-		return this.api.getPosts();
 
+	loadPosts(): Observable<any>{
+		return this.api.get("assets/json/posts.json");
+	}
+
+	getPosts(): Observable<any> {
+		return this.api.get("assets/json/posts.json");
 	}
 }

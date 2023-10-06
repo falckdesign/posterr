@@ -1,17 +1,18 @@
-export interface Post {
-	POST_ID:number;
-	USER_NAME:string;
-	USER_UNIQUE_NAME:string;
-	AVATAR_FILENAME:string;
-	TIME_POSTED:Date;
-	USER_TEXT:string;
-	QUOTED_POST_ID?:number;
+export interface PostBasic {
+	POST_ID:number,
+	POST_TYPE:PostType,
+	USER_NAME:string,
+	USER_UNIQUE_NAME:string,
+	AVATAR_FILENAME:string,
+	TIME_POSTED:Date,
+	USER_TEXT:string,
 	IMAGES?:Image[]
-	LINK_PREVIEW?:LinkPreview
 }
 
-
-export type PostFilter = '' | 'following';
+export interface Post extends PostBasic {
+	ORIGINAL_POST?: PostBasic,
+	LINK_PREVIEW?:LinkPreview
+}
 
 export interface Image {
 	FILENAME_FULL_SIZE:string,
@@ -22,7 +23,18 @@ export interface Image {
 export interface LinkPreview {
 	THUMBNAIL_URL?:string,
 	DOMAIN:string,
-	LINK:string,
+	URL:string,
 	TITLE:string,
 	SUBTITLE?:string
 }
+
+export enum PostFilter {
+	all = "ALL",
+	following = "FOLLOWING"
+};
+
+export enum PostType {
+	original = "",
+	repost = "REPOST",
+	quote = "QUOTE"
+};

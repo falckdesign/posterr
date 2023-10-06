@@ -1,0 +1,124 @@
+@import url("../../../assets/css/media-queries");
+@import url("../../../assets/css/colors");
+
+.repost-header {
+	flex: 100%;
+	font-weight: 700; color: #666;
+}
+
+.post-card {
+	display: flex; flex-wrap: wrap;
+	border-bottom: solid 1px rgb(240,240,240);
+}
+
+.user-avatar {
+
+	.avatar {
+		display: block;
+		overflow: hidden;
+		background-color: @LightTurquoise;
+
+		img { display: block; width: 100%; height: 100%; object-fit: cover; }
+	}
+}
+
+.post-content {
+	flex: 1;
+	.post-header { display: flex; flex-wrap: wrap;}
+	.post-body {
+		white-space: pre-wrap; word-wrap: break-word;
+	}
+	.post-footer { }
+}
+
+.user-name {}
+.user-id { color: #999;}
+.post-time { color: #999; }
+
+
+.controls {
+	display: flex;
+	.control {
+		display: flex; justify-content: center; align-items: center;
+		border:solid 1px hsl(200,.6,.85);
+		cursor: pointer;
+	}
+}
+
+
+//#region BREAKPOINTS
+@media(@desktop){
+	.repost-header {
+		padding: 0 40px 10px 55px;
+		font-size: .8em; line-height: 1.2em;
+	}
+	.post-card {
+		gap: 0 15px;
+		padding: 30px 0;
+	}
+
+	.user-avatar {
+		width: 40px;
+
+		.avatar {
+			width: 40px; height: 40px;
+			border-radius: 10px;
+		}
+	}
+
+	.post-content {
+		margin-right: 40px;
+		.post-header { gap:0 10px; padding-bottom: 10px;}
+		.post-body {
+			margin-bottom: 20px;
+			font-size: 1rem; line-height: 20px;
+		}
+		.post-footer { }
+	}
+
+	.controls {
+		gap: 15px; font-size: 1rem;
+		.control {
+			width: 2em; height: 2em;
+			border-radius: .35em;
+		}
+	}
+}
+
+@media(@mobile){
+	.repost-header {
+		padding: 0 30px 10px 45px;
+		font-size: .8em; line-height: 1.2em;
+	}
+	.post-card {
+		gap: 0 15px;
+		padding: 25px 0;
+	}
+
+	.user-avatar {
+		width: 30px;
+
+		.avatar {
+			width: 30px; height: 30px;
+			border-radius: 7px;
+		}
+	}
+
+	.post-content {
+		margin-right: 25px;
+		.post-header { gap:0 10px; padding-bottom: 10px;}
+		.post-body {
+			margin-bottom: 10px;
+			font-size: 1rem; line-height: 1.35em;
+		}
+	}
+
+	.controls {
+		gap: 15px; font-size: .85rem;
+		.control {
+			width: 2em; height: 2em;
+			border-radius: .35em;
+		}
+	}
+}
+//#endregion

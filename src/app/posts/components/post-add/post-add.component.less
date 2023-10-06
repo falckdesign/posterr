@@ -1,0 +1,54 @@
+@import url("../../../../assets/css/forms");
+@import url("../../../../assets/css/media-queries");
+@import url("../../../../assets/css/colors");
+
+
+.post-new {
+	display: flex; gap: 10px;
+	padding: 30px 0 0 0;
+}
+.user-avatar {
+
+	.avatar {
+		display: block;
+		overflow: hidden;
+		background-color: @LightTurquoise;
+
+		img { display: block; width: 100%; height: 100%; object-fit: cover; }
+	}
+}
+
+.post-input {
+	margin-bottom: 1em;
+	font-size: 1.2rem; line-height: 1.25em;
+}
+
+.post-controls { text-align: right; }
+
+.post-content {
+	flex: 1;
+}
+
+//#region BREAKPOINTS
+@media(@desktop){
+	.user-avatar {
+		width: 50px;
+
+		.avatar {
+			width: 50px; height: 50px;
+			border-radius: 12px;
+		}
+	}
+}
+
+@media(@mobile){
+	.user-avatar {
+		width: 40px;
+
+		.avatar {
+			width: 40px; height: 40px;
+			border-radius: 9px;
+		}
+	}
+}
+//#endregion

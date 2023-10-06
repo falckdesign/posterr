@@ -1,8 +1,4 @@
-
-<div class="post-card">
-	<div class="repost-header" *ngIf="post.POST_TYPE == PostType.repost">
-		<i class="ico ico-repost"></i> USERNAME Reposted
-	</div>
+<div class="post-card post-quoted">
 	<div class="user-avatar">
 		<span class="avatar">
 			<img [src]="avatarFolder+post.AVATAR_FILENAME"/>
@@ -17,11 +13,9 @@
 		<div class="post-body">
 			<div [innerHTML]="post.USER_TEXT"></div>
 
-			<app-post-quoted *ngIf="post.ORIGINAL_POST && post.POST_TYPE == PostType.quote" [post]="post.ORIGINAL_POST"></app-post-quoted>
+			<app-image-gallery *ngIf="post.IMAGES && post.POST_TYPE == PostType.original" [images]="post.IMAGES"></app-image-gallery>
 
-			<app-image-gallery *ngIf="post.IMAGES && !post.POST_TYPE" [images]="post.IMAGES"></app-image-gallery>
-
-			<app-link-preview *ngIf="post.LINK_PREVIEW && !post.POST_TYPE" [linkPreview]="post.LINK_PREVIEW"></app-link-preview>
+			<app-link-preview *ngIf="post.LINK_PREVIEW && post.POST_TYPE == PostType.original" [linkPreview]="post.LINK_PREVIEW"></app-link-preview>
 		</div>
 		<div class="post-footer">
 			<div class="controls">

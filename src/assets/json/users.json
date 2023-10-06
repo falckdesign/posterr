@@ -1,5 +1,15 @@
 [
 	{
+		"USER_UNIQUE_NAME" : "alexfalck",
+		"USER_NAME" : "Alexandre Falck",
+		"AVATAR_FILENAME":"alexandre.jpg",
+		"SHORT_BIO":"Frond End Developer",
+		"MEMBER_SINCE":"2012-02-10T10:00:00.963Z",
+		"NUM_FOLLOWERS":67,
+		"NUM_FOLLOWING":251,
+		"SESSION":true
+	},
+	{
 		"USER_UNIQUE_NAME" : "elonmusk",
 		"USER_NAME" : "Elon Musk",
 		"AVATAR_FILENAME":"elonmusk.jpg",

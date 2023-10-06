@@ -1,1 +1,16 @@
-<p>post-add works!</p>
+
+<div class="post-new">
+	<div class="user-avatar">
+		<span class="avatar" *ngIf="user.AVATAR_FILENAME">
+			<img [src]="avatarFolder+user.AVATAR_FILENAME"/>
+		</span>
+	</div>
+	<div class="post-content">
+		<textarea class="post-input" id="PostText" [(ngModel)]="postInput" placeholder="What are you thinking about?" rows="5"></textarea>
+		<div class="post-controls">
+			<button type="button" class="btn btn-default">
+				Create post
+			</button>
+		</div>
+	</div>
+</div>

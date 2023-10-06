@@ -11,7 +11,7 @@ import { User } from 'src/app/user/models/user.model';
 })
 
 export class PostListComponent implements OnInit {
-	postsFilter: PostFilter = '';
+	postsFilter:any = PostFilter;
 	postsList!:Post[];
 	activeUser!:User;
 
@@ -23,10 +23,8 @@ export class PostListComponent implements OnInit {
 	}
 
 	ngOnInit(): void {
-		this.activeUser = this.userService.getActiveUser();
 		this.postsService.getPosts().subscribe({
 			next:(posts)=>{
-				console.log("posts: ", posts);
 				this.postsList = posts;
 			},
 			error: (error=>{

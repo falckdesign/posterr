@@ -3,14 +3,14 @@ import { Post, PostType } from '../../models/post.model';
 import { PostConstants } from '../../constants/posts-constants';
 
 @Component({
-	selector: 'app-post-card',
-	templateUrl: './post-card.component.html',
-	styleUrls: ['./post-card.component.less']
+	selector: 'app-post-quoted',
+	templateUrl: './post-quoted.component.html',
+	styleUrls: ['./post-quoted.component.less']
 })
 
-export class PostCardComponent {
+export class PostQuotedComponent {
 	avatarFolder: string = PostConstants.AVATAR_FOLDER;
-	public PostType:any = PostType
+	public PostType = PostType
 
 	@Input() post!: Post;
 

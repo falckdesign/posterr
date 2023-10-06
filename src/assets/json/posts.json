@@ -21,7 +21,7 @@
 			"USER_UNIQUE_NAME" : "SpaceX",
 			"AVATAR_FILENAME":"SpaceX.jpg",
 			"TIME_POSTED":"2023-04-24T21:52:22.963Z",
-			"USER_TEXT":"Starship's flight test window opens at 7:00 a.m. CT tomorrow; a live webcast will begin ~45 minutes before liftoff → <a href=\"https://spacex.com/launches/missi\">spacex.com/launches/missi</a>"
+			"USER_TEXT":"Starship's flight test window opens at 7:00 a.m. CT tomorrow; a live webcast will begin ~45 minutes before liftoff → <a href=\"https://www.spacex.com/launches/mission/?missionId=starship-flight-test\">spacex.com/launches/missi...</a>"
 		},
 		{
 			"POST_ID" : 4,
@@ -61,7 +61,7 @@
 			"USER_UNIQUE_NAME" : "Codie_Sanchez",
 			"AVATAR_FILENAME":"codiesanchez.jpg",
 			"TIME_POSTED":"2023-04-24T21:52:22.963Z",
-			"USER_TEXT":"The 1 in 60 rule:\nWhen a plane veers off by 1 degree, it misses its target by 1 mile for every 60 miles flown.\nLesson: Constantly adjust your course."
+			"USER_TEXT":"The 1 in 60 rule:\n\nWhen a plane veers off by 1 degree, it misses its target by 1 mile for every 60 miles flown.\n\nLesson: Constantly adjust your course."
 		},
 		{
 			"POST_ID" : 9,
@@ -69,7 +69,7 @@
 			"USER_UNIQUE_NAME" : "MinorityM1ndset",
 			"AVATAR_FILENAME":"JaspreetSingh.jpg",
 			"TIME_POSTED":"2023-04-24T21:52:22.963Z",
-			"USER_TEXT":"Put a price on your time.\nIf you make $20/hour, a $3,000 handbag isn't just $3,000, it's also 150 hours of your life.\nValue your time."
+			"USER_TEXT":"Put a price on your time.\n\nIf you make $20/hour, a $3,000 handbag isn't just $3,000, it's also 150 hours of your life.\n\nValue your time."
 		},
 		{
 			"POST_ID" : 10,
@@ -77,7 +77,7 @@
 			"USER_UNIQUE_NAME" : "Codie_Sanchez",
 			"AVATAR_FILENAME":"codiesanchez.jpg",
 			"TIME_POSTED":"2023-04-24T21:52:22.963Z",
-			"USER_TEXT":"Stop trying to be normal.\nThe world isn't changed by the normal.\nIt's beaten into submission by the subversives crazy enough to try."
+			"USER_TEXT":"Stop trying to be normal.\n\nThe world isn't changed by the normal.\n\nIt's beaten into submission by the subversives crazy enough to try."
 		},
 		{
 			"POST_ID" : 11,
@@ -85,7 +85,7 @@
 			"USER_UNIQUE_NAME" : "NASA Webb Telescope",
 			"AVATAR_FILENAME":"NASAWebb.jpg",
 			"TIME_POSTED":"2023-04-24T21:52:22.963Z",
-			"USER_TEXT":"You did it, folks. Thanks to you, we put the Webb in #Webbys!\nOur #UnfoldTheUniverse campaign and livestream series have netted us 2 People’s Voice awards. Congrats to all of @NASA’s Webby winners: <a href=\"https://go.nasa.gov/40Gxyph\">go.nasa.gov/40Gxyph.</a>",
+			"USER_TEXT":"You did it, folks. Thanks to you, we put the Webb in #Webbys!\n\nOur #UnfoldTheUniverse campaign and livestream series have netted us 2 People’s Voice awards. Congrats to all of @NASA’s Webby winners: <a href=\"https://go.nasa.gov/40Gxyph\">go.nasa.gov/40Gxyph.</a>",
 			"IMAGES":[
 				{
 					"FILENAME_FULL_SIZE":"FuqdgjoWACg93D7.jpg",
@@ -107,7 +107,7 @@
 					"DOMAIN":"ed.ted.com",
 					"LINK":"https://ed.ted.com/lessons/we-re-building-a-dystopia-just-to-make-people-click-on-ads-zeynep-tufekci",
 					"TITLE":"We're building a dystopia just to make people click on ads - Zeynep Tufekci.",
-					"SUBTITLE":"We're building an artificial intelligence-powered dystopia, one click at a time, says techno-sociologist Zeynep Tufekci. In an eye-opening talk, she details how the same algorithms companies use to get you to click on ads are also used to organize your access to political and social information."
+					"SUBTITLE":"We're building an artificial intelligence-powered dystopia, one click at a time, says techno-sociologist Zeynep Tufekci. In an eye-opening talk, she details how the same algorithms companies use to get you to click on ads are also used..."
 				}
 
 		},

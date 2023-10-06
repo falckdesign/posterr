@@ -1,0 +1,5 @@
+<div class="post-gallery">
+	<div class="post-photo-frame" *ngFor="let photo of images">
+		<img class="post-photo" [src]="photosFolder + photo.FILENAME_THUMBNAIL" [attr.alt]="photo.DESCRIPTION"/>
+	</div>
+</div>

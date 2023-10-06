@@ -5,6 +5,10 @@ import { PostFullComponent } from './components/post-full/post-full.component';
 import { PostListComponent } from './components/post-list/post-list.component';
 import { PostCardComponent } from './components/post-card/post-card.component';
 import { HttpClientModule } from '@angular/common/http';
+import { LinkPreviewComponent } from './components/link-preview/link-preview.component';
+import { ImageGalleryComponent } from './components/image-gallery/image-gallery.component';
+import { PostQuotedComponent } from './components/post-quoted/post-quoted.component';
+import { FormsModule } from '@angular/forms';
 
 
 
@@ -13,11 +17,15 @@ import { HttpClientModule } from '@angular/common/http';
     PostAddComponent,
     PostFullComponent,
     PostListComponent,
-    PostCardComponent
+    PostCardComponent,
+    LinkPreviewComponent,
+    ImageGalleryComponent,
+    PostQuotedComponent
   ],
   imports: [
     CommonModule,
-	HttpClientModule
+	HttpClientModule,
+	FormsModule
   ],
   exports: [
 

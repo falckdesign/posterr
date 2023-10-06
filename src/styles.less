@@ -1,6 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+@import url("assets/css/media-queries");
+html, body, div, span, button, input, select, textarea, h1,h2,h3,h4,h5, p, hr, i { box-sizing: border-box; }
 html, body { padding: 0; margin: 0; display: block; }
 body {
 	font-family: 'Roboto', Helvetica, sans-serif;
 	background-color: hsl(0,0,0.95);
 }
+
+
+
+
+//#region BREAKPOINTS
+@media(@desktop){
+	.container { padding: 0 20px; }
+}
+
+@media(@mobile){
+	.container { padding: 0 15px; }
+}
+//#endregion

@@ -1,0 +1,11 @@
+<div class="link-preview">
+	<a class="link" [href]="linkPreview.URL" [attr.title]="linkPreview.TITLE">
+		<span class="link-photo-frame">
+			<img class="link-photo" [src]="previewsFolder + linkPreview.THUMBNAIL_URL">
+		</span>
+		<span class="link-text">
+			<div class="link-title">{{linkPreview.TITLE}}</div>
+			<div class="link-subtitle">{{linkPreview.SUBTITLE}}</div>
+		</span>
+	</a>
+</div>

@@ -9,6 +9,7 @@ import { LinkPreviewComponent } from './components/link-preview/link-preview.com
 import { ImageGalleryComponent } from './components/image-gallery/image-gallery.component';
 import { PostQuotedComponent } from './components/post-quoted/post-quoted.component';
 import { FormsModule } from '@angular/forms';
+import { PostControlsComponent } from './components/post-controls/post-controls.component';
 
 
 
@@ -20,7 +21,8 @@ import { FormsModule } from '@angular/forms';
     PostCardComponent,
     LinkPreviewComponent,
     ImageGalleryComponent,
-    PostQuotedComponent
+    PostQuotedComponent,
+    PostControlsComponent
   ],
   imports: [
     CommonModule,

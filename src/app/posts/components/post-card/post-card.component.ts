@@ -10,16 +10,8 @@ import { PostConstants } from '../../constants/posts-constants';
 
 export class PostCardComponent {
 	avatarFolder: string = PostConstants.AVATAR_FOLDER;
-	public PostType:any = PostType
+	public postType:PostType = '';
 
 	@Input() post!: Post;
 
-
-	OnCLickRepost() {
-
-	}
-
-	OnClickQuoteRepost() {
-
-	}
 }

@@ -13,9 +13,9 @@
 		<div class="post-body">
 			<div [innerHTML]="post.USER_TEXT"></div>
 
-			<app-image-gallery *ngIf="post.IMAGES && post.POST_TYPE == PostType.original" [images]="post.IMAGES"></app-image-gallery>
+			<app-image-gallery *ngIf="post.IMAGES && post.POST_TYPE == PostTypeList.original" [images]="post.IMAGES"></app-image-gallery>
 
-			<app-link-preview *ngIf="post.LINK_PREVIEW && post.POST_TYPE == PostType.original" [linkPreview]="post.LINK_PREVIEW"></app-link-preview>
+			<app-link-preview *ngIf="post.LINK_PREVIEW && post.POST_TYPE == PostTypeList.original" [linkPreview]="post.LINK_PREVIEW"></app-link-preview>
 		</div>
 		<div class="post-footer">
 			<div class="controls">

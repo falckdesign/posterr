@@ -2,10 +2,10 @@
 	<div class="container">
 		<div class="post-filter">
 			<div class="tabs">
-				<div class="tab" [ngClass]="{'active' : postsFilter == postsFilter.all}" (click)="OnClickFilter(postsFilter.all)">
+				<div class="tab" [ngClass]="{'active' : activePostsFilter == 'all'}" (click)="OnClickFilter('all')">
 					<div class="tab-title">All posts</div>
 				</div>
-				<div class="tab" [ngClass]="{'active' : postsFilter == postsFilter.following}" (click)="OnClickFilter(postsFilter.following)">
+				<div class="tab" [ngClass]="{'active' : activePostsFilter == 'following'}" (click)="OnClickFilter('following')">
 					<div class="tab-title">Following</div>
 				</div>
 			</div>

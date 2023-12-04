@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { Post, PostType } from '../../models/post.model';
+import { Post, PostType, PostTypeList } from '../../models/post.model';
 import { PostConstants } from '../../constants/posts-constants';
 
 @Component({
@@ -10,7 +10,8 @@ import { PostConstants } from '../../constants/posts-constants';
 
 export class PostQuotedComponent {
 	avatarFolder: string = PostConstants.AVATAR_FOLDER;
-	public PostType = PostType
+	protected PostTypeList:typeof PostTypeList = PostTypeList;
+	public PostType:PostType = '';
 
 	@Input() post!: Post;
 

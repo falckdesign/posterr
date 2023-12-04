@@ -21,5 +21,12 @@ export class PostsService {
 
 	getPosts(): Observable<any> {
 		return this.api.get("assets/json/posts.json");
+		//const postList =
+		//let filteredList = postList.filter((post)=>{});
+		//return filteredList;
 	}
+
+	filterPosts(){
+
+	};
 }

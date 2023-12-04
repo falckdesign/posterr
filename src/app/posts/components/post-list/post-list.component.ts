@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Post, PostFilter } from '../../models/post.model';
+import { Post, PostFilter, PostFilterList } from '../../models/post.model';
 import { PostsService } from '../../services/posts.service';
 import { UserService } from 'src/app/user/services/user.service';
 import { User } from 'src/app/user/models/user.model';
@@ -11,7 +11,8 @@ import { User } from 'src/app/user/models/user.model';
 })
 
 export class PostListComponent implements OnInit {
-	postsFilter:any = PostFilter;
+	postFilterList = PostFilterList;
+	activePostsFilter:PostFilter = '';
 	postsList!:Post[];
 	activeUser!:User;
 
@@ -24,8 +25,10 @@ export class PostListComponent implements OnInit {
 
 	ngOnInit(): void {
 		this.postsService.getPosts().subscribe({
-			next:(posts)=>{
-				this.postsList = posts;
+			next:(posts:Post[])=>{
+				this.postsList = posts.filter((post:Post)=>{
+					//return post.
+				});
 			},
 			error: (error=>{
 				throw error;
@@ -33,7 +36,8 @@ export class PostListComponent implements OnInit {
 		});
 	}
 
-	OnClickFilter(selectedFiler:PostFilter):void{
-		this.postsFilter = selectedFiler;
+	OnClickFilter(selectedFiler:string):void{
+		const _selectedFiler:PostFilter = selectedFiler as PostFilter;
+		this.activePostsFilter = _selectedFiler;
 	}
 }

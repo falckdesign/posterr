@@ -28,13 +28,18 @@ export interface LinkPreview {
 	SUBTITLE?:string
 }
 
-export enum PostFilter {
+export enum PostFilterList {
+	'' = "",
 	all = "ALL",
 	following = "FOLLOWING"
 };
+export type PostFilter = keyof typeof PostFilterList;
 
-export enum PostType {
+export enum PostTypeList {
+	'' = "",
 	original = "",
 	repost = "REPOST",
 	quote = "QUOTE"
 };
+
+export type PostType = keyof typeof PostTypeList;
